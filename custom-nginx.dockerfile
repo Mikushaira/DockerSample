@@ -4,9 +4,9 @@ LABEL version="1.0.0"
 LABEL maintainer="mikushaira@gmail.com"
 
 RUN apt-get update
-RUN apt-get upgrade-y
+RUN apt-get upgrade -y
 
-RUN apt-get install nginx-y
+RUN apt-get install nginx -y
 
 EXPOSE 80
 
